@@ -1,0 +1,59 @@
+@import ../../../assets/styles/variables
+
+.gameBoard
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 600px
+    height: 600px
+    background-image: url('../../../assets/images/table.png')
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+    z-index: 3
+
+    @media (min-width: 1800px)
+        width: 800px
+        height: 800px
+
+    @media (max-width: 600px)
+        width: 500px
+        height: 500px
+
+    @media (max-width: 450px)
+        width: 400px
+        height: 400px
+
+    @media (max-width: 360px)
+        width: 330px
+        height: 330px
+
+
+    .playInContainer
+        position: absolute
+        width: 486px
+        height: 486px
+        top: 53.3%
+        left: 50%
+        transform: translate(-50%, -50%)
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: repeat(3, 1fr)
+        z-index: 4
+
+        @media (min-width: 1800px)
+            width: 650px
+            height: 650px
+
+        @media (max-width: 600px)
+            width: 404px
+            height: 404px
+
+        @media (max-width: 450px)
+            width: 324px
+            height: 324px
+
+        @media (max-width: 360px)
+            width: 270px
+            height: 270px

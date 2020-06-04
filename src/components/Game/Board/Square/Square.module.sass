@@ -1,0 +1,43 @@
+@import ../../../../assets/styles/variables
+
+.gameSquare
+    cursor: pointer
+    position: relative
+
+
+.currentValueImg, .onHoverImg
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+    position: absolute
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
+    z-index: 5
+
+.circleImg
+    background-image: url('../../../../assets/images/circle.png')
+
+.crossImg
+    background-image: url('../../../../assets/images/cross.png')
+
+
+@keyframes highlightSquare
+    from
+        opacity: 1
+    to
+        opacity: 0.3
+
+
+.highlighted
+    animation-duration: 0.7s
+    animation-name: highlightSquare
+    animation-iteration-count: infinite
+    animation-direction: alternate
+    animation-timing-function: ease-in-out
+
+.onHoverImg
+    opacity: 0
+    &:hover
+        opacity: 0.5
