@@ -21,6 +21,10 @@ const Sakura: React.FC<SakuraType> = React.memo((props) => {
             min: 1000,
             max: 4000
         },
+        scale: {
+            min: 0,
+            max: 999
+        },
         from: {
             min: 60,
             max: 100
@@ -34,6 +38,7 @@ const Sakura: React.FC<SakuraType> = React.memo((props) => {
 
     const randomRotation = randomInteger(sakuraParams.rotation.min, sakuraParams.rotation.max)
     const randomSpeed = randomInteger(sakuraParams.speed.min, sakuraParams.speed.max)
+    const randomScale = randomInteger(sakuraParams.scale.min, sakuraParams.scale.max)
     const randomFrom = randomInteger(sakuraParams.from.min, sakuraParams.from.max)
     const randomTo = randomInteger(sakuraParams.to.min, sakuraParams.to.max)
 
@@ -47,14 +52,14 @@ const Sakura: React.FC<SakuraType> = React.memo((props) => {
                     bottom: '120%',
                     left: randomTo+'%',
                     rotate: `${randomRotation}deg`,
-                    rotateY: `${randomRotation}deg`
+                    scale: Number(1+'.'+randomScale)
                 }
             ],
             duration: randomSpeed,
             easing: 'linear',
             loop: false,
         });
-    }, [randomTo, randomRotation, randomSpeed])
+    }, [randomTo, randomRotation, randomSpeed, randomScale])
 
 
 
@@ -62,8 +67,10 @@ const Sakura: React.FC<SakuraType> = React.memo((props) => {
         <div
             ref={sakuraRef}
             className={s.sakura}
-            style={{left: randomFrom+'%',
-                    zIndex: 10+sakuraId}}
+            style={{
+                left: randomFrom+'%',
+                zIndex: 200+sakuraId
+            }}
         />
 
     )

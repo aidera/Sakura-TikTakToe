@@ -3,6 +3,7 @@
 .gameSquare
     cursor: pointer
     position: relative
+    //z-index: 5
 
 
 .currentValueImg, .onHoverImg
@@ -14,7 +15,7 @@
     height: 100%
     left: 0
     top: 0
-    z-index: 5
+    z-index: 6
 
 .circleImg
     background-image: url('../../../../assets/images/circle.png')
@@ -39,5 +40,7 @@
 
 .onHoverImg
     opacity: 0
-    &:hover
-        opacity: 0.5
+    @media (min-width: 600px)
+        &:hover
+            opacity: 0.5
+

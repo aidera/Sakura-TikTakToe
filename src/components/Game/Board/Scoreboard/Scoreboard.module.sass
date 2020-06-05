@@ -11,6 +11,7 @@
     font-family: "Neucha", cursive
     color: $general-text-color
     font-size: 24px
+    z-index: 4
 
     @media (min-width: 1800px)
         width: 320px
@@ -89,8 +90,10 @@
             width: 16px
             right: 5px
 
-        &:hover
-            transform: translateY(-50%) rotate(180deg)
+        @media (min-width: 600px)
+            &:hover
+                transform: translateY(-50%) rotate(180deg)
+
         img
             width: 100%
             height: 100%

@@ -157,8 +157,9 @@ const Game = () => {
             />
 
             {(winner === 'o' || winner === 'x') &&
-                <Congratulation/>
+                <Congratulation refreshTheGame={refreshTheGame} />
             }
+            {/*<Congratulation refreshTheGame={refreshTheGame} />*/}
 
             {!isGameInitialized &&
                 <div ref={preloaderRef} className={cn(s.preloader, {hide: isGameInitialized})}>

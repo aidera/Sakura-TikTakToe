@@ -4,7 +4,13 @@ import Sakura from './Sakura/Sakura'
 
 
 
-const Congratulation = () => {
+type CongratulationType = {
+    refreshTheGame: () => void
+}
+
+const Congratulation: React.FC<CongratulationType> = React.memo((props) => {
+
+    const {refreshTheGame} = props
 
     const sakuraTotalCount = 80
 
@@ -24,11 +30,13 @@ const Congratulation = () => {
     }
 
     return (
-        <div className={s.congratulation}>
+        <div
+            onClick={refreshTheGame}
+            className={s.congratulation}>
             {sakuraGenerator()}
         </div>
     )
-}
+})
 
 
 export default Congratulation
