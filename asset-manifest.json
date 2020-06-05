@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Sakura-TikTakToe/static/css/main.19965c31.chunk.css",
-    "main.js": "/Sakura-TikTakToe/static/js/main.fc1a7c55.chunk.js",
-    "main.js.map": "/Sakura-TikTakToe/static/js/main.fc1a7c55.chunk.js.map",
+    "main.css": "/Sakura-TikTakToe/static/css/main.b9b3dc97.chunk.css",
+    "main.js": "/Sakura-TikTakToe/static/js/main.5bb80c09.chunk.js",
+    "main.js.map": "/Sakura-TikTakToe/static/js/main.5bb80c09.chunk.js.map",
     "runtime-main.js": "/Sakura-TikTakToe/static/js/runtime-main.df8982af.js",
     "runtime-main.js.map": "/Sakura-TikTakToe/static/js/runtime-main.df8982af.js.map",
-    "static/js/2.24dbdc15.chunk.js": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js",
-    "static/js/2.24dbdc15.chunk.js.map": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js.map",
+    "static/js/2.f3a2eaf3.chunk.js": "/Sakura-TikTakToe/static/js/2.f3a2eaf3.chunk.js",
+    "static/js/2.f3a2eaf3.chunk.js.map": "/Sakura-TikTakToe/static/js/2.f3a2eaf3.chunk.js.map",
     "index.html": "/Sakura-TikTakToe/index.html",
-    "precache-manifest.7ab3a3cca76a5e2eed70e696f01bbc44.js": "/Sakura-TikTakToe/precache-manifest.7ab3a3cca76a5e2eed70e696f01bbc44.js",
+    "precache-manifest.5b35f09d6ea03cf1d778ef4f836a326c.js": "/Sakura-TikTakToe/precache-manifest.5b35f09d6ea03cf1d778ef4f836a326c.js",
     "service-worker.js": "/Sakura-TikTakToe/service-worker.js",
-    "static/css/main.19965c31.chunk.css.map": "/Sakura-TikTakToe/static/css/main.19965c31.chunk.css.map",
-    "static/js/2.24dbdc15.chunk.js.LICENSE.txt": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js.LICENSE.txt",
+    "static/css/main.b9b3dc97.chunk.css.map": "/Sakura-TikTakToe/static/css/main.b9b3dc97.chunk.css.map",
+    "static/js/2.f3a2eaf3.chunk.js.LICENSE.txt": "/Sakura-TikTakToe/static/js/2.f3a2eaf3.chunk.js.LICENSE.txt",
     "static/media/Game.module.sass": "/Sakura-TikTakToe/static/media/mat.61e0921b.png",
     "static/media/Sakura.module.sass": "/Sakura-TikTakToe/static/media/sakura.f4a31b4b.svg",
     "static/media/Board.module.sass": "/Sakura-TikTakToe/static/media/table.d7240e71.png"
   },
   "entrypoints": [
     "static/js/runtime-main.df8982af.js",
-    "static/js/2.24dbdc15.chunk.js",
-    "static/css/main.19965c31.chunk.css",
-    "static/js/main.fc1a7c55.chunk.js"
+    "static/js/2.f3a2eaf3.chunk.js",
+    "static/css/main.b9b3dc97.chunk.css",
+    "static/js/main.5bb80c09.chunk.js"
   ]
 }
