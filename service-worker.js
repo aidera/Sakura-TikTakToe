@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Sakura-TikTakToe/precache-manifest.257b63a1d6c49e6d0cdf3f0cf2a9b3ce.js"
+  "/Sakura-TikTakToe/precache-manifest.f7d098052b28a9d3eb0fd5c24134f826.js"
 );
 
 self.addEventListener('message', (event) => {
