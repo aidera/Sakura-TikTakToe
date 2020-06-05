@@ -15,6 +15,7 @@ const Congratulation = () => {
                 .push(
                     <Sakura
                         key={i}
+                        sakuraId={i}
                     />
                 )
         }

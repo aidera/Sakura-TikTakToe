@@ -4,8 +4,13 @@ import anime from 'animejs'
 import {randomInteger} from '../../../../lib/randomInteger'
 
 
+type SakuraType = {
+    sakuraId: number
+}
 
-const Sakura: React.FC = React.memo((props) => {
+const Sakura: React.FC<SakuraType> = React.memo((props) => {
+
+    const {sakuraId} = props
 
     const sakuraParams = {
         rotation: {
@@ -57,7 +62,8 @@ const Sakura: React.FC = React.memo((props) => {
         <div
             ref={sakuraRef}
             className={s.sakura}
-            style={{left: randomFrom+'%'}}
+            style={{left: randomFrom+'%',
+                    zIndex: 10+sakuraId}}
         />
 
     )
