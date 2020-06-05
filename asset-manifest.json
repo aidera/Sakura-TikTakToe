@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Sakura-TikTakToe/static/css/main.04521901.chunk.css",
-    "main.js": "/Sakura-TikTakToe/static/js/main.57eac1b9.chunk.js",
-    "main.js.map": "/Sakura-TikTakToe/static/js/main.57eac1b9.chunk.js.map",
+    "main.css": "/Sakura-TikTakToe/static/css/main.ddf8af57.chunk.css",
+    "main.js": "/Sakura-TikTakToe/static/js/main.fc1a7c55.chunk.js",
+    "main.js.map": "/Sakura-TikTakToe/static/js/main.fc1a7c55.chunk.js.map",
     "runtime-main.js": "/Sakura-TikTakToe/static/js/runtime-main.df8982af.js",
     "runtime-main.js.map": "/Sakura-TikTakToe/static/js/runtime-main.df8982af.js.map",
     "static/js/2.24dbdc15.chunk.js": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js",
     "static/js/2.24dbdc15.chunk.js.map": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js.map",
     "index.html": "/Sakura-TikTakToe/index.html",
-    "precache-manifest.251e3deec1c74f61372f64d153eb7b1a.js": "/Sakura-TikTakToe/precache-manifest.251e3deec1c74f61372f64d153eb7b1a.js",
+    "precache-manifest.22bee1f25719ac11831038b3997a41ba.js": "/Sakura-TikTakToe/precache-manifest.22bee1f25719ac11831038b3997a41ba.js",
     "service-worker.js": "/Sakura-TikTakToe/service-worker.js",
-    "static/css/main.04521901.chunk.css.map": "/Sakura-TikTakToe/static/css/main.04521901.chunk.css.map",
+    "static/css/main.ddf8af57.chunk.css.map": "/Sakura-TikTakToe/static/css/main.ddf8af57.chunk.css.map",
     "static/js/2.24dbdc15.chunk.js.LICENSE.txt": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js.LICENSE.txt",
     "static/media/Game.module.sass": "/Sakura-TikTakToe/static/media/mat.61e0921b.png",
     "static/media/Sakura.module.sass": "/Sakura-TikTakToe/static/media/sakura.f4a31b4b.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.df8982af.js",
     "static/js/2.24dbdc15.chunk.js",
-    "static/css/main.04521901.chunk.css",
-    "static/js/main.57eac1b9.chunk.js"
+    "static/css/main.ddf8af57.chunk.css",
+    "static/js/main.fc1a7c55.chunk.js"
   ]
 }
