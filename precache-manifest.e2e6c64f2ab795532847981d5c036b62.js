@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d0e06e38af86c657b3a44b40e7edb12",
+    "revision": "3c3ea758a7aba050d6882b935e140958",
     "url": "/Sakura-TikTakToe/index.html"
   },
   {
-    "revision": "168a11a91c641cfececf",
-    "url": "/Sakura-TikTakToe/static/css/main.9936d5e2.chunk.css"
+    "revision": "802b69b60d33d44ffc47",
+    "url": "/Sakura-TikTakToe/static/css/main.fda20ba8.chunk.css"
   },
   {
     "revision": "edfdbaf2d9d49860a739",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "168a11a91c641cfececf",
-    "url": "/Sakura-TikTakToe/static/js/main.974984b8.chunk.js"
+    "revision": "802b69b60d33d44ffc47",
+    "url": "/Sakura-TikTakToe/static/js/main.54369203.chunk.js"
   },
   {
     "revision": "b4078f85acdddc91b81a",
