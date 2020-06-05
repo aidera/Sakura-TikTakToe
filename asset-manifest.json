@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sakura-TikTakToe/static/css/main.fda20ba8.chunk.css",
+    "main.css": "/Sakura-TikTakToe/static/css/main.784b4da1.chunk.css",
     "main.js": "/Sakura-TikTakToe/static/js/main.54369203.chunk.js",
     "main.js.map": "/Sakura-TikTakToe/static/js/main.54369203.chunk.js.map",
     "runtime-main.js": "/Sakura-TikTakToe/static/js/runtime-main.df8982af.js",
@@ -8,9 +8,9 @@
     "static/js/2.24dbdc15.chunk.js": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js",
     "static/js/2.24dbdc15.chunk.js.map": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js.map",
     "index.html": "/Sakura-TikTakToe/index.html",
-    "precache-manifest.e2e6c64f2ab795532847981d5c036b62.js": "/Sakura-TikTakToe/precache-manifest.e2e6c64f2ab795532847981d5c036b62.js",
+    "precache-manifest.257b63a1d6c49e6d0cdf3f0cf2a9b3ce.js": "/Sakura-TikTakToe/precache-manifest.257b63a1d6c49e6d0cdf3f0cf2a9b3ce.js",
     "service-worker.js": "/Sakura-TikTakToe/service-worker.js",
-    "static/css/main.fda20ba8.chunk.css.map": "/Sakura-TikTakToe/static/css/main.fda20ba8.chunk.css.map",
+    "static/css/main.784b4da1.chunk.css.map": "/Sakura-TikTakToe/static/css/main.784b4da1.chunk.css.map",
     "static/js/2.24dbdc15.chunk.js.LICENSE.txt": "/Sakura-TikTakToe/static/js/2.24dbdc15.chunk.js.LICENSE.txt",
     "static/media/Game.module.sass": "/Sakura-TikTakToe/static/media/mat.61e0921b.png",
     "static/media/Sakura.module.sass": "/Sakura-TikTakToe/static/media/sakura.f4a31b4b.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.df8982af.js",
     "static/js/2.24dbdc15.chunk.js",
-    "static/css/main.fda20ba8.chunk.css",
+    "static/css/main.784b4da1.chunk.css",
     "static/js/main.54369203.chunk.js"
   ]
 }
